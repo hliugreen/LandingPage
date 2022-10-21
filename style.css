@@ -1,7 +1,5 @@
 body {
-    font-family: sans-serif;
-    margin: 0, auto;
-   
+    font-family: sans-serif; 
 }
 
 .darkColor {
@@ -23,13 +21,16 @@ a {
     padding: 0 0.5rem;
 }
 
+.content{
+    padding-right: 1rem;
+}
+
 .display{
     display: flex;
     justify-content:space-around;
-    
-    align-items:left;
     margin: 0 auto;
     padding:0.5rem 1.5rem; 
+    
 }
 
 #logo{
@@ -38,15 +39,29 @@ a {
     margin-left: 0.5rem;
     margin-top: 1rem;
 }
-.content{
-    width:50%;
+
+
+h2{
+    font-size:3rem;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+p{
+    font-size: 18px;
+
 }
 
 #imgM {
-    max-width:15%;
+    max-width:40%;
     height:auto;
     border-radius: 15px;
-    margin:1.0rem 0.5rem;
+    margin:1rem 1rem 1rem 0.5rem;
    
 }
 
@@ -54,14 +69,23 @@ a {
     background:#3882F6;
     border-radius: 0.5rem;
     color: white;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 0.75rem;
 }
+.btn:hover{
+    border: 2px solid;
+    cursor:pointer;
 
+}
 section{
     margin-top: 2.5rem;
     text-align: center;
+    
 }
 
 .quote-section{
+    margin-top:0;
     background: #E5E7EB;
     font:2rem;
     font-style: italic;
@@ -70,9 +94,11 @@ section{
 }
 
 .quote{
-    margin:0 20%;
-    display: block;
-    text-align:center;
+    margin: 0 auto;
+    padding: 15px 30px 5px 30px;
+    width: 60%;
+    text-align:left;
+    
 }
 .author{
     text-align: right;
@@ -83,4 +109,15 @@ img{
     max-height: 60%;
     height: auto;
     border-radius:10px;
+}
+
+footer{
+    text-align: center;
+   
+    height:3rem;
+}
+
+footer p{
+    font-size: 0.75rem;
+    padding: 1rem 1rem;
 }
